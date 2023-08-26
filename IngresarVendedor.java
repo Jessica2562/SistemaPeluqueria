@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import javax.swing.JOptionPane;
 
 public class IngresarVendedor {
-	public void ingreso(int id, String nombreIn,String apellidoIn, String usuIN,String conIN) {
+	public void ingreso(int id, String nombreIn, String apellidoIn, String usuIN,S tring conIN) {
 		// TODO Auto-generated method stub
 		MySQLConnection conex = new MySQLConnection();
 		
